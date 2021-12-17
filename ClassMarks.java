@@ -32,7 +32,6 @@ class ClassMarks {
     while ((line = inputStreamStu.readLine()) != null) {
       stuList.add(line);
     }
-    File assignFile = new File("/home/ubuntu/environment/files/Unit1-07/assignments.txt");
     List<String> asList = new ArrayList<String>();
     BufferedReader inputStreamAssign = new BufferedReader(new FileReader(files[0]));
     while ((line = inputStreamAssign.readLine()) != null) {
